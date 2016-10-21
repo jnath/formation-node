@@ -1,0 +1,25 @@
+{
+  "name": "formation-node",
+  "version": "1.0.0",
+  "description": "formation nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "hapi": "^15.2.0",
+    "inert": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnath/formation-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnath/formation-node/issues"
+  },
+  "homepage": "https://github.com/jnath/formation-node#readme"
+}
