@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "formation nodejs",
   "main": "index.js",
+  "bin":{
+    "static-formation-node": "./bin/cli.js"
+  },
   "dependencies": {
+    "bossy": "^3.0.2",
     "hapi": "^15.2.0",
     "inert": "^4.0.2"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node ./index.js",
+    "blabla": "mkdirp ./p/b",
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
