@@ -12,7 +12,7 @@ var definition = {
         default: 3000
     },
     d: {
-        description: 'server static directory',
+        description: 'static directory',
         alias: 'directory',
         type: 'string'
     },
